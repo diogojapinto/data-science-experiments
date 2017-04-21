@@ -1,0 +1,48 @@
+Relu:
+
+<img src="http://cs231n.github.io/assets/nn1/relu.jpeg">
+
+
+Convolutional Layer:
+
+<img src='http://engineering.flipboard.com/assets/convnets/Convolution_schematic.gif'>
+
+
+Complete Convolutional Layer (multiple Filters):
+
+<img src='https://codelabs.developers.google.com/codelabs/cloud-tensorflow-mnist/img/53c160301db12a6e.png'>
+
+
+Max-pooling:
+
+<img src='https://shafeentejani.github.io/assets/images/pooling.gif'>
+
+
+
+## Exercise 1.
+
+Try running the model for more iterations (i.e. increase the 'epochs' variable to, e.g., 12). What do you detect? 
+
+
+## Exercise 2. (the hard one)
+
+Change the model definition (or create a new model) with the following layers configuration:
+ * **2D Convolution**, with 32 filters and a 5x5 window, relu activation;
+ * **Max-Polling**, with a factor of 2 horizontally and vertically;
+ * **Dropout**, with probability of keeping the values of 0.7 (careful with this one ;) );
+ * **2D Convolution**, with 64 filters and a 5x5 window, relu activation;
+ * **Max-Polling**, with a factor of 2 horizontally and vertically;
+ * **Dropout**, with probability of keeping the values of 0.7
+ * **Flatten** the output, to prepare it for the fully-connected layer;
+ * A **Dense** layer, with 1024 neurons;
+ * An output **Dense** layer, with 10 neuros, activated with softmax.
+
+
+Does the result improve?
+
+(TIP: Go to [Keras documentation](https://keras.io/) to see the layers methods definition.)
+
+
+## Exercise 3. (the hardest one)
+
+Can you come up with an architecture and configuration that improves on the previous results? Show it ;)
