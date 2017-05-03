@@ -43,6 +43,11 @@ Does the result improve?
 (TIP: Go to [Keras documentation](https://keras.io/) to see the layers methods definition.)
 
 
-## Exercise 3. (the hardest one)
+## Exercise 3.
+
+Vary the dropout to 0, and compare the training accuracy in the test dataset. Can you gess what would happend if you set the dropout to 1?
+
+
+## Exercise 4. (the hardest one)
 
 Can you come up with an architecture and configuration that improves on the previous results? Show it ;)
